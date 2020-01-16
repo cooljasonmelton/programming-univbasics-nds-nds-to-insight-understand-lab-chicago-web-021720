@@ -10,15 +10,8 @@ end
 
 
 def print_first_directors_movie_titles
-  puts directors_database[0][:movies][0][:title]
-  puts directors_database[0][:movies][1][:title]
-  puts directors_database[0][:movies][2][:title]
-  puts directors_database[0][:movies][3][:title]
-  puts directors_database[0][:movies][4][:title]
-  puts directors_database[0][:movies][5][:title]
-  
+  count = 0
   while directors_database do
-     puts directors_database[0][:movies][0][:title]
-
-  
+     puts directors_database[0][:movies][count][:title]
+     count += 1
 end
